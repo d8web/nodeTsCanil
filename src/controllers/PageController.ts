@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 
-import { Pet } from '../models/Pet';
+import { Pet } from '../models/pet';
 import { createMenuObject } from '../helpers/createMenuObject';
 
 export const home = (req: Request, res: Response) => {
@@ -54,5 +54,3 @@ export const fishes = (req: Request, res: Response) => {
         list
     });
 }
-
-// Ativando o menu
